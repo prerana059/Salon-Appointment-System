@@ -1,0 +1,37 @@
+.page {
+  min-height: 100vh;
+  padding: 28px;
+  background: radial-gradient(1200px 700px at 20% 10%, #f1f5f9 0%, #ffffff 45%);
+  color: #0f172a;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 10px;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  letter-spacing: -0.02em;
+}
+
+.text {
+  margin: 0 0 18px;
+  line-height: 1.7;
+  color: #334155;
+  font-size: 1.05rem;
+}
+
+.backLink {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 800;
+  color: #7c3aed;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
